@@ -48,6 +48,7 @@ const simpleTimer = () => {
   };
 
   const reset = () => {
+    if (isRunning) return;
     isRunning = false;
     isPaused = false;
     timeElapsed = 0;
@@ -66,8 +67,6 @@ const simpleTimer = () => {
     getTimer,
   };
 };
-
-
 
 const { start, pause, reset, getTimer } = simpleTimer();
 
