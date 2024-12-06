@@ -1,0 +1,10 @@
+from the beginning in the Header i see the logo, commonly when click it will go to home page “/”, next navigation bar will have navigation Link, navigation bar will get the data from db or data preset to render navigation Link, each navigation Link will have two type one is have drop down arrow, and one is not. if the one has the drop down arrow it will be relative and drop down content will be absolute.
+The user and useName will display the name use and avatar of this user, when clicked it will go to useProfile. the down arrow in the end of header will make a dropdown content may have item to another page or logout. 
+
+From the Profile Page to the end will be the main display of the app. It will be a layout, the layout will change based on the page name in the picture I see on the profile page. in each layout it mount a contenter of page  (in the picture it will be a profile page.
+
+In the mounted container it will separate a more component base on how to use it , in this picture it will be a reusable row component, in the row component it will have name after the name will be the green underline and it may be a content edit button.
+
+In the row it will render the detail of the profile name, each file will have two options: display name or button to interact with it. 
+
+in the consoles it will have a component that has a thumbnail and name also the link to the page. 

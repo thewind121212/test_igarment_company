@@ -1,0 +1,24 @@
+# Logs
+/Frontend/Question_2/logs
+/Frontend/Question_2/*.log
+/Frontend/Question_2/npm-debug.log*
+/Frontend/Question_2/yarn-debug.log*
+/Frontend/Question_2/yarn-error.log*
+/Frontend/Question_2/pnpm-debug.log*
+/Frontend/Question_2/lerna-debug.log*
+
+/Frontend/Question_2/node_modules
+/Frontend/Question_2/dist
+/Frontend/Question_2/dist-ssr
+/Frontend/Question_2/*.local
+
+# Editor directories and files
+/Frontend/Question_2/.vscode/*
+/Frontend/Question_2/!.vscode/extensions.json
+/Frontend/Question_2/.idea
+/Frontend/Question_2/.DS_Store
+/Frontend/Question_2/*.suo
+/Frontend/Question_2/*.ntvs*
+/Frontend/Question_2/*.njsproj
+/Frontend/Question_2/*.sln
+/Frontend/Question_2/*.sw?
