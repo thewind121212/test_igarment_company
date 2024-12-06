@@ -6,7 +6,6 @@ const Button = ({ className, content, fn, disabled = false }: {
     disabled?: boolean
 }) => {
 
-    console.log(disabled)
     return (
         <button
             className={`text-[#FFFFFF] px-4 py-2 rounded-md ${className}`}
